@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { useState } from "react";
+import BackgroundImage from "../assets/image.png";
 
 export const Accordion = () => {
     const [currentTab, setCurrentTab] = useState(0);
@@ -50,7 +51,11 @@ export const Accordion = () => {
                     </svg>
                 </div>
                 <div className="backgroundImageContainer">
-                    <img src="./assets/image.png" alt="image-1" />
+                    <img
+                        src={BackgroundImage}
+                        alt="image-1"
+                        className="image"
+                    />
                 </div>
                 <h1 style={{ textAlign: "center", marginBottom: "10px" }}>
                     FAQ
