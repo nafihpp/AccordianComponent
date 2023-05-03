@@ -1,10 +1,11 @@
 # debug-task-3
 
-
-Accordion with UserList.
+Accordion Component and UserList Component.
 
 Navigation without React RouterDom.
 
-Userlist where the user can be deleted from the array with the user_id.
+custom Accordian Component.
 
-Accordion which gets closed when another tab is pressed.
+Userlist where the user can be deleted from the array.
+
+
